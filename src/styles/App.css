@@ -1,0 +1,6 @@
+#main_wrapper {
+    min-height: calc(100vh - 110px);
+    background-color: lightgray;
+    padding: 15px;
+    box-sizing: border-box;
+}

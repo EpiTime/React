@@ -1,0 +1,45 @@
+#main_nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 15px;
+    background-color: slateblue;
+}
+
+#logo_container {
+    display: flex;
+    align-items: center;
+}
+
+#logo_container > img {
+    margin-right: 15px;
+    height: 60px;
+    width: 70px;
+}
+
+#logo_container > h1 {
+    color: white;
+}
+
+#connection_container {
+    display: flex;
+    align-items: center;
+}
+
+#connection_container > select {
+    margin-right: 15px;
+    padding: 5px;
+}
+
+#connection_container > select > option {
+
+}
+
+#connection_container > img {
+    height: 60px;
+    width: 60px;
+}
+
+#connection_container:hover {
+    cursor: pointer;
+}
